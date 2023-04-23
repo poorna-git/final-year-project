@@ -1,0 +1,27 @@
+{
+    "body": {
+        "status": null,
+        "data": [],
+        "message": null
+    },
+    "messages": {
+        "succeess": {
+            "register": "User Registered Successfully",
+            "login": "Successful Login"
+        },
+        "fail": {
+            "register": {
+                "conflict": "User Already Exists"
+            },
+            "login": {
+                "validation": "Wrong username or password",
+                "token": "Wrong token or expired",
+                "unkown": "User not found"
+            },
+            "file": {
+                "read": "Error while reading file",
+                "write": "Error while writing file"
+            }
+        }
+    }
+}
